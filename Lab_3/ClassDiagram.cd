@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Product" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAABAAAgAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laptop" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TV" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IFlip" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAEAAAAAAAAgAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oled" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAACAgAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperTablet" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>Lab_3BSUIR.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
