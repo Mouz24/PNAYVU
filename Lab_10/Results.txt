@@ -1,0 +1,5 @@
+Restricted symbols: l b 
+'Hello Worlds'
+Words in line that don't contain the symbols: 0
+'I am Bon'
+Words in line that don't contain the symbols: 2

@@ -5,19 +5,19 @@
 using namespace std;
 
 template<class T>
-class KeyValuePair
+class MAP
 {
 
 public:
      static string Key;
      T Value;
 
-    KeyValuePair()
+    MAP()
     {
 
     }
 
-    KeyValuePair(string key, T value)
+    MAP(string key, T value)
     {
         Value = value;
         Key = key;
@@ -25,12 +25,12 @@ public:
 };
 
 template<class T>
-T BinarySearch(string key, vector<class KeyValuePair<T>> arr, int count)
+T BinarySearch(string key, vector<class MAP<T>> arr, int count)
 {
     int Min = 0;
     int Max = count - 1;
     int mid = (Min + Max) / 2;
-    KeyValuePair<T> element = arr[mid];
+    MAP<T> element = arr[mid];
     T value;
     for (KeyValuePair<T> el : arr)
     {
@@ -63,7 +63,7 @@ T BinarySearch(string key, vector<class KeyValuePair<T>> arr, int count)
 
 int main()
 {
-    vector<KeyValuePair<int>> arr;
+    vector<MAP<int>> arr;
 
     int count;
     cin >> count;
@@ -76,7 +76,7 @@ int main()
         int value;
         cin >> value;
 
-        KeyValuePair<int> temp(tempKey, value);
+        MAP<int> temp(tempKey, value);
         arr.push_back(temp);
     }
 

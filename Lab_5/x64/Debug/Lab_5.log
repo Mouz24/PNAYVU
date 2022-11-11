@@ -1,4 +1,4 @@
 ﻿  Lab_5.cpp
-C:\Users\user\source\repos\Lab_5\Lab_5.cpp(62): warning C4715: BinarySearch<int>: значение возвращается не при всех путях выполнения
-Lab_5.obj : error LNK2001: неразрешенный внешний символ "public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > KeyValuePair<int>::Key" (?Key@?$KeyValuePair@H@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A).
-C:\Users\user\source\repos\Lab_5\x64\Debug\Lab_5.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+C:\Users\user\source\repos\Labs\Lab_5\Lab_5.cpp(77): error C4700: использована неинициализированная локальная переменная "value"
+C:\Users\user\source\repos\Labs\Lab_5\Lab_5.cpp(62): warning C4715: BinarySearch<char *>: значение возвращается не при всех путях выполнения
+C:\Users\user\source\repos\Labs\Lab_5\Lab_5.cpp(44): error C4703: используется потенциально неинициализированная локальная переменная-указатель "value"
