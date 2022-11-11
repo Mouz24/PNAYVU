@@ -1,0 +1,20 @@
+﻿  Lab_8.cpp
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(276,26): warning C4305: аргумент: усечение из "double" в "mytype"
+          with
+          [
+              mytype=float
+          ]
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(279,48): warning C4305: аргумент: усечение из "double" в "mytype"
+          with
+          [
+              mytype=float
+          ]
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(280,29): warning C4305: аргумент: усечение из "double" в "mytype"
+          with
+          [
+              mytype=float
+          ]
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(198): warning C4715: List<int>::FindForAdding: значение возвращается не при всех путях выполнения
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(198): warning C4715: List<float>::FindForAdding: значение возвращается не при всех путях выполнения
+C:\Users\user\source\repos\Labs\Lab_8\Lab_8.cpp(198): warning C4715: List<char>::FindForAdding: значение возвращается не при всех путях выполнения
+  Lab_8.vcxproj -> C:\Users\user\source\repos\Labs\Lab_8\x64\Debug\Lab_8.exe

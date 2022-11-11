@@ -7,9 +7,8 @@ using namespace std;
 template<class T>
 class MAP
 {
-
 public:
-     static string Key;
+     string Key;
      T Value;
 
     MAP()
@@ -32,7 +31,7 @@ T BinarySearch(string key, vector<class MAP<T>> arr, int count)
     int mid = (Min + Max) / 2;
     MAP<T> element = arr[mid];
     T value;
-    for (KeyValuePair<T> el : arr)
+    for (MAP<T> el : arr)
     {
         if (!el.Key.compare(key))
         {

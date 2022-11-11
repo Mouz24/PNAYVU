@@ -1,1 +1,2 @@
 C:\Users\user\source\repos\Lab_5\x64\Debug\Lab_5.exe
+C:\Users\user\source\repos\Labs\Lab_5\x64\Debug\Lab_5.exe
