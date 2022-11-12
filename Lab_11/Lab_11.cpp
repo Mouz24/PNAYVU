@@ -52,7 +52,7 @@ public:
 
     void Product1Unique()
     {
-        cout << "You are in Product1" << endl;
+        cout << "Product1 Unique Function" << endl;
     }
 
     string GetType() override
@@ -88,7 +88,7 @@ public:
 
     void Product2Unique()
     {
-        cout << "You are in Product2" << endl;
+        cout << "Product2 Unique Function" << endl;
     }
 
     string GetType() override
@@ -124,7 +124,7 @@ public:
 
     void Product3Unique()
     {
-        cout << "You are in Product3" << endl;
+        cout << "Product3 Unique Function" << endl;
     }
 
     string GetType() override
@@ -172,5 +172,10 @@ int main()
         }
 
         cout << endl;
+    }
+
+    for (int i = 0; i < 4; i++)
+    {
+        delete (arr[i]);
     }
 }
